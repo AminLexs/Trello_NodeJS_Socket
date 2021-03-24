@@ -1,0 +1,64 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^4.6.0",
+    "bootswatch": "^4.6.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "flux": "^4.0.1",
+    "http": "^0.0.1-security",
+    "js-file-download": "^0.4.12",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
+    "react-scripts": "4.0.2",
+    "react-table": "^7.6.3",
+    "react-table-6": "^6.11.0",
+    "react-toastr": "^3.0.0",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1",
+    "socketio-file-upload": "^0.7.3",
+    "toastr": "^2.1.4",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "set PORT=8083 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "devServer": "nodemon server/server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
