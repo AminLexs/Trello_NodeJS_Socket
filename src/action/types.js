@@ -1,0 +1,8 @@
+const types = {
+    ERROR: "ERROR",
+    REQUEST_SUCCESS: "REQUEST_SUCCESS",
+    CHOOSE_TASK: "CHOOSE_TASK",
+    CLEAR_TASK: "CLEAR_TASK",
+    UPDATE_TASK_REQUEST: "UPDATE_TASK_REQUEST"
+};
+export default types;
